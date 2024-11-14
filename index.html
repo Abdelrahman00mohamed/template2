@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- start navbar  -->
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top ">
+    <div class="container my-1  ">
+      <a class="navbar-brand text-white fw-bolder" href="#">Start Bootstrap</a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item text-white">
+            <a class="nav-link " href="#home">home</a>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link " href="#project">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar  -->
+  <!-- start header  -->
+  <header id="home" class="min-section">
+    <div class="container h-100 d-flex justify-content-center align-items-center">
+      <div class="header-content text-white">
+        <div class="center-img d-flex justify-content-center">
+          <div class="image">
+            <img class="w-75 mb-2" src="./assets/img/avataaars.svg" alt="">
+          </div>
+        </div>
+        <h1 class="fw-bolder font-size text-uppercase">START BOOTSTRAP</h1>
+        <div class="icons my-3 ">
+          <div class="width-1"></div>
+          <div class="star"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="27" fill="currentColor"
+              class="bi bi-star-fill px-2" viewBox="0 0 16 16">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+          </div>
+          <div class="width-1"></div>
+        </div>
+        <p class="lead text-center fw-bold">Graphic Artist - Web Designer - Illustrator</p>
+      </div>
+    </div>
+  </header>
+
+  <section id="project" class="Portfolio py-4 ">
+    <h2 class="fw-bolder text-center font-size text-uppercase">Portfolio</h2>
+    <div class="icons my-4 ">
+      <div class="width-1 "></div>
+      <div class="star"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="27" fill="currentColor"
+          class="bi bi-star-fill px-2" viewBox="0 0 16 16">
+          <path
+            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+        </svg>
+      </div>
+      <div class="width-1 "></div>
+    </div>
+    <div class="container">
+      <!-- disply img  -->
+      <div class="i d-none h100 d-flex justify-content-center align-items-center">
+        <div class="imgbg text-center w-75 d-flex flex-column align-items-center bg-light h-75">
+
+          <img class="img-fluid my-4 w-25" src="" alt="..." />
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iste laborum veniam.
+            Accusantium explicabo ipsam veritatis impedit ad eaque a iure ullam.</p>
+          <button class="btn close my-3 btn-primary">cloce window</button>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-md-4 mb-5 ">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i
+                  class="font-size fa-solid fa-plus"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+          </div>
+        </div>
+        <div class=" col-md-4 mb-5 ">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i
+                  class="font-size fa-solid fa-plus"></i></div>
+            </div>
+            <img class="img-fluid item" src="./assets/img/portfolio/cake.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="font-size fa-solid fa-plus"></i>
+              </div>
+            </div>
+            <img class="img-fluid item" src="./assets/img/portfolio/circus.png" alt="">
+          </div>
+
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i
+                  class="font-size fa-solid fa-plus"></i></div>
+            </div>
+
+            <img class="img-fluid item" src="./assets/img/portfolio/game.png" alt="">
+          </div>
+
+        </div>
+        <div class=" col-md-4 mb-5">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i
+                  class="font-size fa-solid fa-plus"></i></div>
+            </div>
+            <img class="img-fluid item" src="./assets/img/portfolio/safe.png" alt="">
+          </div>
+
+        </div>
+        <div class="col-md-4 mb-5 ">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i
+                  class="font-size fa-solid fa-plus"></i></div>
+            </div>
+            <img class="img-fluid item" src="./assets/img/portfolio/submarine.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about ">
+    <div class="container hei d-flex flex-column justify-content-center ">
+      <h2 class="fw-bolder  text-center text-light font-size text-uppercase"> About</h2>
+      <div class="icons">
+        <div class="width-1"></div>
+        <div class="star"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="27" fill="currentColor"
+            class="bi bi-star-fill px-2" viewBox="0 0 16 16">
+            <path
+              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+          </svg>
+        </div>
+        <div class="width-1"></div>
+      </div>
+      <div class="row r">
+        <div class="col-lg-4 ms-auto text-light">
+          <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+            complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy
+            customization.</p>
+        </div>
+        <div class="col-lg-4 me-auto text-light">
+          <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and
+            add your email address to the contact form to make it fully functional!</p>
+        </div>
+      </div>
+      <div class="download text-center  mt-4 ">
+        <a class="btn p-3 btn-outline-light" href="">Free Download!</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact my-4">
+    <div class="container ">
+      <h2 class="fw-bolder  text-center text-dark font-size text-uppercase">CONTACT ME</h2>
+      <div class="icons">
+        <div class="width-1 bg-dark"></div>
+        <div class="star"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="27" fill="currentColor"
+            class="bi bi-star-fill px-2" viewBox="0 0 16 16">
+            <path
+              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+          </svg>
+        </div>
+        <div class="width-1 bg-dark"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-7 offset-lg-3  offset-xl-3">
+          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <!-- Name input-->
+            <div class="form-floating mb-3">
+              <input class="brdr form-control" id="name" type="text" placeholder="Enter your name..."
+                data-sb-validations="required" />
+              <label for="name">Full name</label>
+
+            </div>
+            <!-- Email address input-->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                data-sb-validations="required,email" />
+              <label for="email">Email address</label>
+
+            </div>
+            <!-- Phone number input-->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                data-sb-validations="required" />
+              <label for="phone">Phone number</label>
+
+            </div>
+            <!-- Message input-->
+            <div class="form-floating mb-3">
+              <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..."
+                style="height: 10rem" data-sb-validations="required"></textarea>
+              <label for="message">Message</label>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class=" text-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 ">
+          <h4 class="mb-4">LOCATION</h4>
+          <p class="lead mb-0">2215 John Daniel Drive <br>
+            Clark, MO 65243</p>
+        </div>
+        <div class="col-md-4">
+          <h4 class="mb-4">AROUND THE WEB</h4>
+          <a class="btn mx-2 rounded-circle btn-outline-light" href=""><i class="fa-brands fa-facebook-f"></i> </a>
+          <a class="btn mx-2 rounded-circle  btn-outline-light" href=""><i class="fa-brands fa-twitter"></i></a>
+          <a class="btn rounded-circle btn-outline-light" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="col-md-4">
+          <h4 class="mb-4 fw-bolder">ABOUT FREELANCER</h4>
+          <p class="lead mb-0 "> Freelance is a free to use, MIT <br> licensed Bootstrap theme created <br>by<a
+              class="colo" href="">Start Bootstrap .</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright text-center text-white py-4">
+    <div class="container">
+      <small>Copyright © Your Website 2023</small>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
